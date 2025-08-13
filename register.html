@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register</title>
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <!-- Estilo CSS compartido -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <form action="">
+      <h1>Register</h1>
+      
+      <div class="input-box">
+        <input type="text" placeholder="Username" required />
+        <i class="bx bxs-user"></i>
+      </div>
+
+      <div class="input-box">
+        <input type="email" placeholder="Email" required />
+        <i class="bx bxs-envelope"></i>
+      </div>
+      
+      <div class="input-box">
+        <input id="regPassword" type="password" placeholder="Password" required />
+        <i class="bx bxs-lock-alt" id="toggleRegPassword" style="cursor: pointer;"></i>
+      </div>
+      
+      <div class="remember-forgot">
+        <label><input type="checkbox" required /> I agree to the terms</label>
+      </div>
+      
+      <button type="submit" class="btn">Register</button>
+      
+      <div class="register-link">
+        <p>Already have an account? <a href="index.html">Login</a></p>
+      </div>
+    </form>
+  </div>
+
+  <!-- Script para mostrar/ocultar contraseña -->
+  <script>
+    const toggleRegPassword = document.getElementById("toggleRegPassword");
+    const regPasswordInput = document.getElementById("regPassword");
+
+    toggleRegPassword.addEventListener("click", function () {
+      const type = regPasswordInput.getAttribute("type") === "password" ? "text" : "password";
+      regPasswordInput.setAttribute("type", type);
+      this.classList.toggle("bxs-lock-alt");
+      this.classList.toggle("bxs-lock-open-alt");
+    });
+  </script>
+</body>
+</html>
