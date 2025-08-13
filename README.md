@@ -1,2 +1,35 @@
-# Login
-Formulario de registro moderno en HTML y CSS con campos para usuario, correo y contraseña, opción de mostrar/ocultar contraseña, checkbox de aceptación de términos y diseño glassmorphism responsivo usando Boxicons. Incluye enlace a inicio de sesión para fácil navegación.
+# 🌟 Formulario de Login y Registro Moderno
+
+Interfaz minimalista y elegante para **registro** e **inicio de sesión**, hecha con **HTML**, **CSS** y **Boxicons**, con efecto **glassmorphism** y diseño totalmente responsivo.
+
+---
+
+## 📸 Vista previa
+
+### Login
+<img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/33a78c0f-e3ba-4fec-9ac0-fd026543547d" />
+
+
+### Registro
+<img width="1919" height="903" alt="image" src="https://github.com/user-attachments/assets/10d24f3f-59dc-4b82-bf3f-70c79f0adc86" />
+
+---
+
+## ✨ Características
+- ✅ Diseño moderno con efecto **glassmorphism**
+- 🔒 Botón para mostrar/ocultar contraseña
+- 📧 Campos para **usuario**, **correo** y **contraseña**
+- 📝 Checkbox para aceptar términos y condiciones
+- 📱 Adaptable a dispositivos móviles y escritorio
+- 🔗 Enlace directo entre **login** y **registro**
+
+---
+
+## 🛠️ Tecnologías utilizadas
+- **HTML5**
+- **CSS3**
+- [**Boxicons**](https://boxicons.com/)
+
+---
+
+
