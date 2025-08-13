@@ -1,4 +1,4 @@
-# 🌟 Formulario de Login y Registro Moderno
+# Formulario de Login y Registro Moderno
 
 Interfaz minimalista y elegante para **registro** e **inicio de sesión**, hecha con **HTML**, **CSS** y **Boxicons**, con efecto **glassmorphism** y diseño totalmente responsivo.
 
@@ -7,7 +7,7 @@ Interfaz minimalista y elegante para **registro** e **inicio de sesión**, hecha
 ## 📸 Vista previa
 
 ### Login
-<img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/33a78c0f-e3ba-4fec-9ac0-fd026543547d" />
+<img width="1919" height="895" alt="image" src="https://github.com/user-attachments/assets/ff7fe0f8-863b-48ef-8205-f9a82c4ab0fb" />
 
 
 ### Registro
